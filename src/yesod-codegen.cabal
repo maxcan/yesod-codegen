@@ -10,13 +10,13 @@ Name:                yesod-codegen
 Version:             0.1
 
 -- A short (one-line) description of the package.
-Synopsis:            the yesod scaffolding, in a package
+Synopsis:            the yesod codegen component in a separate package
 
 -- A longer description of the package.
 -- Description:         
 
 -- URL for the project homepage or repository.
-Homepage:            http://github.com/maxcan
+Homepage:            http://github.com/maxcan/yesod-codegen
 
 -- The license under which the package is released.
 License:             BSD3
@@ -48,7 +48,7 @@ Cabal-version:       >=1.2
 
 Library
   -- Modules exported by the library.
-  Exposed-modules: Scaffolding.CodeGen
+  Exposed-modules: Yesod.Util.CodeGen
   
   -- Packages needed in order to build this package.
   Build-depends: base >= 4.3
